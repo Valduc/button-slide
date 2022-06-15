@@ -1,9 +1,11 @@
+/* !Paddings && !Margins */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Center Body Content */
 body{
     display: grid;
     justify-content: center;
@@ -12,10 +14,7 @@ body{
     height: 100vh;
 }
 
-/*
-** BUTTON CLASS
-*/
-
+/* Button Class */
 .button{
     position: relative;
     display: inline-block;
